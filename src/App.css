@@ -1,0 +1,25 @@
+.app{
+    display: grid;
+    grid-template-columns: 1;
+    place-items: center;
+    height: 100vh;
+}
+
+.slider-container{
+    width: 100%;
+    max-width: 1100px;
+    overflow-x: hidden;
+}
+
+.inner-slider{
+    width: fit-content;
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    cursor: grab;
+}
+
+.inner-slider div{
+    flex-shrink: 0;
+}

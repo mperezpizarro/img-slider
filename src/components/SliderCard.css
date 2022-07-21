@@ -1,0 +1,14 @@
+.slider-card{
+    background: #eee;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    padding: 2rem;
+    pointer-events: none;
+    touch-action: none;
+    width: 230px;
+    height: 230px;
+}
+
+.slider-card img{
+    width: 100%;
+}
